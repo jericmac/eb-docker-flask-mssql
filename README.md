@@ -16,7 +16,5 @@ A Flask Application template that uses MS-SQL, containerized for docker, for dep
 
 ### Instructions (AWS - Elastic Beanstalk Deployment)
 1. Create a new environment, Choose the "Generic Docker" Platform, with t2.small as the minimum server size 
-[orders]: docker.png
-
 2. Navigate to the `ElasticBeanstalk-Docker-Flask-Template` Folder, then place the contents of that folder into a zip file
 3. deploy the zip file into the AWS environment.
