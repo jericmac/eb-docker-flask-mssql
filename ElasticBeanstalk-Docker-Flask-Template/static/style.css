@@ -1,0 +1,45 @@
+.menu{
+display: block;
+margin-left: auto;
+margin-right: auto;
+align: center;
+width: 420px;
+}
+.menu-align
+{
+position: relative;
+display: block;
+margin-left:20px;
+margin-right:auto;
+}
+ul {
+
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
