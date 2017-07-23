@@ -1,0 +1,6 @@
+web_app:
+  build: ./ElasticBeanstalk-Docker-Flask-Template
+  ports:
+   - "5000:5000"
+  volumes:
+   - .:/code
