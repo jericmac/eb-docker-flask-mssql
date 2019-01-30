@@ -1,5 +1,8 @@
 # eb-docker-flask-mssql
-A Flask Application template that uses MS-SQL, containerized for docker, for deployment in Elastic Beanstalk.
+Sometimes you just need a working full-stack backbone for your website.
+This is a Flask Application template that uses MS-SQL, containerized for docker, for deployment in AWS Elastic Beanstalk.
+Just pop and run - do it in your local first, then once you're happy deploy it to AWS EB.
+
 
 ### Instructions 
 1. Setup Docker in your local. Install Docker, Docker Compose
